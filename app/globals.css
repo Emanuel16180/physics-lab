@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom grid pattern for lab blackboard style as requested */
+.lab-grid-bg {
+  background-color: #fdfbf7; /* Crema claro */
+  background-image: linear-gradient(rgba(0, 255, 255, 0.15) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
